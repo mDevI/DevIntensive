@@ -1,3 +1,33 @@
 <resources>
-    <string name="app_name">DevIntensive</string>
+    <string name="app_name">Белоносов Сергей</string>
+
+
+    <!-- Values of string used in a application -->
+    <string name="text_project">Рейтинг</string>
+    <string name="text_count_code_strings">Написано строк кода</string>
+    <string name="text_count_projects">Проектов</string>
+
+    <string name="hint_phone">Мобильный</string>
+    <string name="text_phone">+7(913)580-81-31</string>
+
+    <string name="hint_email">E-mail</string>
+    <string name="text_email">2belonosov@gmail.com</string>
+
+    <string name="hint_vk">Профиль в VK</string>
+    <string name="text_vk">http://vk.com/id370391665</string>
+
+
+    <string name="hint_github_repo">Репозиторий</string>
+    <string name="text_github_repo">github.com/mDevI/DevIntensive</string>
+
+
+    <string name="hint_about_me">О себе</string>
+    <string name="text_about_me">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+
 </resources>

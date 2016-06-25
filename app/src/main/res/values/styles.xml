@@ -3,9 +3,77 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
-        <item name="color_Primary">@color/colorPrimary</item>
-        <item name="color_Primary_Dark">@color/colorPrimaryDark</item>
-        <item name="color_Accent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Header element theme. -->
+    <style name="header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/gray</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingBottom">@dimen/spacing_medial_24</item>
+        <item name="android:paddingTop">@dimen/spacing_medial_24</item>
+    </style>
+    <!-- Item element theme. -->
+    <style name="item">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">72dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Base icon theme. -->
+    <style name="icon">
+        <item name="android:layout_width">@dimen/size_small_24</item>
+        <item name="android:layout_height">@dimen/size_small_24</item>
+    </style>
+
+    <!-- Right icon element theme. -->
+    <style name="icon.right" parent="icon">
+        <item name="android:gravity">top|right</item>
+        <item name="android:layout_marginTop">@dimen/spacing_medial_24</item>
+        <item name="android:layout_marginRight">@dimen/spacing_medium_32</item>
+    </style>
+
+    <!-- Left icon element theme. -->
+    <style name="icon.left" parent="icon">
+        <item name="android:gravity">top|left</item>
+        <item name="android:layout_marginTop">@dimen/spacing_medial_24</item>
+        <item name="android:layout_marginLeft">@dimen/spacing_normal_16</item>
+    </style>
+
+    <!-- Textview theme. -->
+    <style name="text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!-- Title of text view theme. -->
+    <style name="text.title" parent="text">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Edit view theme. -->
+    <style name="edit">
+        <item name="android:enabled">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/gray</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="HeadSeparator">
+        <item name="android:layout_width">@dimen/line_separator_size_1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/white</item>
     </style>
 
 </resources>

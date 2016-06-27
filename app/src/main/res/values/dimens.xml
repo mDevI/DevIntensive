@@ -9,15 +9,38 @@
     <dimen name="font_large_18">18sp</dimen>
     <dimen name="font_larger_22">22sp</dimen>
 
-    <!-- Typical spacing between two views -->
-    <dimen name="spacing_tiny_4">4dp</dimen>
-    <dimen name="spacing_small_10">10dp</dimen>
-    <dimen name="spacing_normal_14">14dp</dimen>
-    <dimen name="spacing_large_24">24dp</dimen>
-    <dimen name="spacing_huge_40">40dp</dimen>
+    <!-- Typical spacing between views -->
+    <dimen name="spacing_small_8">8dp</dimen>
+    <dimen name="spacing_normal_16">16dp</dimen>
+    <dimen name="spacing_medial_24">24dp</dimen>
+    <dimen name="spacing_medium_32">32dp</dimen>
+    <dimen name="spacing_large_56">56dp</dimen>
+    <dimen name="spacing_larger_72">72dp</dimen>
 
-    <!-- Typical sizes of views -->
+
+    <!-- Typical sizes of views elements -->
     <dimen name="button_height_tall_60">60dp</dimen>
     <dimen name="button_height_normal_40">40dp</dimen>
     <dimen name="button_height_short_32">32dp</dimen>
+
+    <!-- Typical margin sizes of views elements -->
+    <dimen name="left_small_margin_16">16dp</dimen>
+    <dimen name="left_medial_margin_24">24dp</dimen>
+    <dimen name="left_medium_margin_32">32dp</dimen>
+    <dimen name="left_large_margin_72">72dp</dimen>
+
+    <dimen name="right_small_margin_16">16dp</dimen>
+    <dimen name="right_medial_margin_24">24dp</dimen>
+    <dimen name="right_medium_margin_32">32dp</dimen>
+    <dimen name="right_large_margin_72">72dp</dimen>
+
+    <!-- Typical sizes of views elements -->
+    <dimen name="size_small_24">24dp</dimen>
+    <dimen name="size_medium_56">56dp</dimen>
+    <dimen name="size_large_72">72dp</dimen>
+
+    <!-- Separator sizes -->
+    <dimen name="line_separator_size_1">1dp</dimen>
+    <dimen name="height_line">72dp</dimen>
+
 </resources>

@@ -6,7 +6,6 @@
         <item name="colorPrimaryDark">@color/color_Primary_Dark</item>
         <item name="colorAccent">@color/color_Accent</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
-        <item name="android:statusBarColor">@color/color_Accent</item>
         <item name="android:windowTranslucentStatus">true</item>
     </style>
 </resources>

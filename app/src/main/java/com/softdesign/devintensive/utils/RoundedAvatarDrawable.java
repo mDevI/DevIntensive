@@ -1,18 +1,5 @@
-/*
- * Copyright 2013 Evelio Tarazona Cáceres <evelio@evelio.info>
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
+
+
 package com.softdesign.devintensive.utils;
 
 import android.graphics.Bitmap;
@@ -26,10 +13,8 @@ import android.graphics.RectF;
 import android.graphics.Shader;
 import android.graphics.drawable.Drawable;
 
-/**
- * A Drawable that draws an oval with given {@link Bitmap}
- */
 public class RoundedAvatarDrawable extends Drawable {
+
     private final Bitmap mBitmap;
     private final Paint mPaint;
     private final RectF mRectF;
@@ -45,7 +30,6 @@ public class RoundedAvatarDrawable extends Drawable {
         final BitmapShader shader = new BitmapShader(bitmap, Shader.TileMode.CLAMP, Shader.TileMode.CLAMP);
         mPaint.setShader(shader);
 
-        // NOTE: we assume bitmap is properly scaled to current density
         mBitmapWidth = mBitmap.getWidth();
         mBitmapHeight = mBitmap.getHeight();
     }
@@ -58,7 +42,6 @@ public class RoundedAvatarDrawable extends Drawable {
     @Override
     protected void onBoundsChange(Rect bounds) {
         super.onBoundsChange(bounds);
-
         mRectF.set(bounds);
     }
 
@@ -71,8 +54,8 @@ public class RoundedAvatarDrawable extends Drawable {
     }
 
     @Override
-    public void setColorFilter(ColorFilter cf) {
-        mPaint.setColorFilter(cf);
+    public void setColorFilter(ColorFilter colorFilter) {
+        mPaint.setColorFilter(colorFilter);
     }
 
     @Override
@@ -110,6 +93,4 @@ public class RoundedAvatarDrawable extends Drawable {
     public Bitmap getBitmap() {
         return mBitmap;
     }
-
-
 }

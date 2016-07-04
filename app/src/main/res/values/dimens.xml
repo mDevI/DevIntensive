@@ -43,4 +43,10 @@
     <dimen name="line_separator_size_1">1dp</dimen>
     <dimen name="height_line">72dp</dimen>
 
+    <!-- Sizes of user photo -->
+    <dimen name="profile_image_size">256dp</dimen>
+
+    <!-- Margin for float button -->
+    <dimen name="fab_right_space">8dp</dimen>
+
 </resources>
